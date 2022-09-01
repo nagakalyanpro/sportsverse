@@ -8,7 +8,7 @@ import {
 
 import {kolkata} from './teamdata/Kolkata'
 
-import './app.css';
+import './App.css';
 import Sidebar from './components/sidebar/Sidebar'
 import Kolkata from './components/teams/Kolkata';
 import Gujarat from './components/teams/Gujarat';

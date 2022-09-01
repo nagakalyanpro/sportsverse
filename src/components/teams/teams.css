@@ -1,0 +1,106 @@
+.team-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+    padding: 10;
+    background-color: rgb(8, 8, 31);
+    color: aliceblue;
+}
+
+.team-name button {
+    position: relative;
+    left: 150px;
+    border-radius: 30px;
+    width: 120px;
+    height: 1.8rem;
+    background-color: rgb(224, 170, 19);
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.modal-1 {
+    margin: 10px 30px;
+    position: relative;
+    width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(20, 20, 51);
+    color: aliceblue;
+}
+
+.price h2 {
+    font-size: 50px;
+    margin: 0;
+    margin-top: -20px;
+}
+
+.change h2 {
+    font-size: 40px;
+    margin: 0;
+    margin-top: -20px;
+    line-break: strict;
+}
+
+.modal-2 {
+    margin: 10px 30px;
+    position: relative;
+    width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(20, 20, 51);
+}
+
+.match,
+.won,
+.lost,
+.runrate,
+.points {
+    display: flex;
+    justify-content: space-between;
+    margin: -20px;
+    padding: 0px 30px;
+}
+
+.modal-2 h4 {
+    font-size: 1rem;
+}
+
+.history-section {
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(20, 20, 51);
+}
+
+.history-modal {
+    margin: 10px 30px;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 0px;
+    justify-content: space-between;
+}
+
+.team-1 {
+    display: inline-flex;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.team-2 {
+    display: inline-flex;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.message {
+    text-align: center;
+}

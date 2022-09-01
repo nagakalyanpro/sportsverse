@@ -1,0 +1,24 @@
+.sidebar-section {
+    width: 200px;
+    height: 100vh;
+    padding: 10px;
+    border: 0.5px solid gray;
+    background-color: rgb(8, 8, 31);
+}
+
+.team-list ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+.sidebar-none {
+    display: none;
+}
